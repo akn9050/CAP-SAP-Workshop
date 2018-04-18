@@ -24,7 +24,10 @@ Open a browser instance in private or incognito mode and login to [Microsoft Azu
 
 # Known Issues
 
-### 
+### Most probably user make mistakes in naming convention.
+    * AT the time of template deployment user enters wrong password for adBDC vms. Then, they will face issue during RDP into adBDC Vm and Password reset will not work for AD Vms. For this issue user need to do lab from skretch with new instance.
+    * Some time attaindees make misake in domain name parameter, If user do this mistake they will face issue during Domain joining from s03-ascs-0 and s03-ascs-1 server vms.
+    * If user facing issue in login with contoso.com\s03-su, we need to go into adBDC > server manager > Tools > manage users and computers > s03 >  
 
 # Notes to Instructors / Proctors
 
